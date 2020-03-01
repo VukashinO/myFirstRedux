@@ -11,7 +11,7 @@ export const Main = (props) => {
             <div className="row">
                 <div className="col-xs-12">
                     <button
-                        className="btn btn-primary"
+                        className="btn btn"
                         onClick={props.changeUsername}>Change the Username
                     </button>
                 </div>
