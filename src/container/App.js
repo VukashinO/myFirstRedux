@@ -8,7 +8,7 @@ class App extends Component {
     render(){
         return (
             <div>
-                <Main changeUsername={() => this.props.setName("Anna")}/>
+                <Main changeUsername={this.props.setName}/>
                 <User username={this.props.user.name}/>
             </div>
         )
